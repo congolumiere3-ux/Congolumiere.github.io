@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Congo Lumière | Électricité à domicile</title>
+
+<meta name="description" content="Congo Lumière - Installation, dépannage et maintenance électrique à domicile à Kinshasa.">
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #172554;
+    line-height: 1.6;
+}
+
+header {
+    background: #ffffff;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f2a5f;
+}
+
+.logo span {
+    color: #f5b400;
+}
+
+nav a {
+    text-decoration: none;
+    color: #172554;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0b2452, #174ea6);
+    color: white;
+    padding: 100px 7%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #ffd21f;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 19px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 25px;
+    margin: 7px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-yellow {
+    background: #ffd21f;
+    color: #172554;
+}
+
+.btn-white {
+    background: white;
+    color: #172554;
+}
+
+section {
+    padding: 70px 7%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 45px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    padding: 30px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.icon {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.about {
+    background: #f5f8fc;
+    text-align: center;
+}
+
+.about p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.why {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    text-align: center;
+}
+
+.contact {
+    background: #0b2452;
+    color: white;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #071a3a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #25D366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    z-index: 999;
+}
+
+@media(max-width: 700px) {
+    nav {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    section {
+        padding: 55px 5%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">CONGO <span>lumière</span></div>
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="accueil">
+    <h1>Votre électricité,<br><span>notre expertise ⚡</span></h1>
+
+    <p>
+        Des solutions électriques fiables, sécurisées et professionnelles
+        pour votre maison et votre entreprise.
+    </p>
+
+    <div class="buttons">
+        <a href="#contact" class="btn btn-yellow">DEMANDER UN DEVIS</a>
+
+        <!-- REMPLACER LE NUMÉRO PAR VOTRE NUMÉRO WHATSAPP -->
+        <a href="https://wa.me/243000000000" class="btn btn-white">
+            WHATSAPP
+        </a>
+    </div>
+</section>
+
+<section id="services">
+
+    <h2 class="section-title">Nos services</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Installation électrique</h3>
+            <p>Installation et rénovation des circuits électriques.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🛠️</div>
+            <h3>Dépannage électrique</h3>
+            <p>Recherche et résolution de vos pannes électriques.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💡</div>
+            <h3>Éclairage</h3>
+            <p>Installation de luminaires et solutions d'éclairage.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔌</div>
+            <h3>Prises & interrupteurs</h3>
+            <p>Installation et remplacement de prises et interrupteurs.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🏠</div>
+            <h3>Tableau électrique</h3>
+            <p>Installation et organisation de tableaux électriques.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔧</div>
+            <h3>Maintenance</h3>
+            <p>Contrôle et entretien de vos installations électriques.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="apropos">
+
+    <h2 class="section-title">À propos de Congo Lumière</h2>
+
+    <p>
+        Congo Lumière accompagne les particuliers et les professionnels
+        dans leurs travaux électriques. Notre objectif est de proposer
+        des solutions fiables, sécurisées et adaptées aux besoins de
+        chaque client.
+    </p>
+
+</section>
+
+<section>
+
+    <h2 class="section-title">Pourquoi nous choisir ?</h2>
+
+    <div class="why">
+
+        <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Intervention rapide</h3>
+            <p>Une attention particulière à la rapidité d'intervention.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🛡️</div>
+            <h3>Sécurité</h3>
+            <p>La sécurité de votre installation est notre priorité.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">👨‍🔧</div>
+            <h3>Professionnalisme</h3>
+            <p>Un travail propre et professionnel.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💰</div>
+            <h3>Transparence</h3>
+            <p>Des informations claires sur les travaux à réaliser.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">Besoin d'un électricien ?</h2>
+
+    <p>
+        Contactez Congo Lumière pour discuter de votre projet
+        ou de votre problème électrique.
+    </p>
+
+    <div class="buttons">
+
+        <!-- REMPLACER LE NUMÉRO -->
+        <a href="https://wa.me/243000000000"
+           class="btn btn-yellow">
+           CONTACTER SUR WHATSAPP
+        </a>
+
+        <a href="tel:+243000000000"
+           class="btn btn-white">
+           APPELER
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+    <p><strong>CONGO LUMIÈRE</strong> — Votre énergie à domicile</p>
+    <p>© 2026 Congo Lumière. Tous droits réservés.</p>
+</footer>
+
+<!-- BOUTON WHATSAPP -->
+<a class="whatsapp"
+   href="https://wa.me/243000000000"
+   aria-label="WhatsApp">
+   ☎
+</a>
+
+</body>
+  </html>
