@@ -4,21 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Congo Lumière | Électricité à domicile à Kinshasa</title>
+<title>Congo Lumière | Électricité & Installation Split à Kinshasa</title>
 
-<meta name="description"
-content="Congo Lumière : installation, dépannage, maintenance et rénovation électrique à Kinshasa. Contactez-nous sur WhatsApp.">
+<meta name="description" content="Congo Lumière à Kinshasa : installation électrique, dépannage, maintenance, éclairage et installation de climatiseurs Split.">
 
 <style>
-
-/* =========================
-   BASE
-========================= */
-
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
@@ -27,100 +21,69 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #172554;
     background: #ffffff;
+    color: #172554;
     line-height: 1.6;
 }
 
-a {
-    text-decoration: none;
-}
-
-.container {
-    width: 90%;
-    max-width: 1150px;
-    margin: auto;
-}
-
-/* =========================
-   HEADER
-========================= */
-
 header {
     background: #ffffff;
+    padding: 12px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: sticky;
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 15px rgba(0,0,0,0.08);
 }
 
-.header-content {
-    min-height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .logo img {
-    width: 170px;
+    width: 135px;
     height: auto;
-}
-}
-    font-size: 24px;
-    font-weight: 800;
-    color: #0b2452;
-}
-
-.logo span {
-    color: #f5b400;
+    display: block;
 }
 
 nav {
     display: flex;
-    gap: 25px;
+    align-items: center;
 }
 
 nav a {
+    text-decoration: none;
     color: #172554;
-    font-weight: 700;
-    font-size: 15px;
+    margin-left: 22px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 nav a:hover {
     color: #f5b400;
 }
 
-/* =========================
-   HERO
-========================= */
+/* HERO */
 
 .hero {
-    background:
-        linear-gradient(135deg, #071a3a, #174ea6);
+    background: linear-gradient(135deg, #071d46, #1557b0);
     color: white;
-    padding: 95px 0;
+    padding: 90px 7%;
     text-align: center;
-}
-
-.hero-content {
-    max-width: 850px;
-    margin: auto;
 }
 
 .badge {
     display: inline-block;
     background: rgba(255,255,255,0.12);
     border: 1px solid rgba(255,255,255,0.2);
-    padding: 8px 18px;
+    padding: 8px 16px;
     border-radius: 30px;
-    margin-bottom: 22px;
     font-size: 14px;
+    margin-bottom: 20px;
 }
 
 .hero h1 {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 1.15;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
 }
 
 .hero h1 span {
@@ -128,22 +91,23 @@ nav a:hover {
 }
 
 .hero p {
-    font-size: 19px;
-    max-width: 720px;
+    max-width: 760px;
     margin: auto;
-    opacity: 0.95;
+    font-size: 19px;
+    color: #eef5ff;
 }
 
 .buttons {
-    margin-top: 32px;
+    margin-top: 30px;
 }
 
 .btn {
     display: inline-block;
-    padding: 15px 26px;
+    padding: 14px 25px;
     margin: 6px;
-    border-radius: 35px;
-    font-weight: 800;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
     transition: 0.3s;
 }
 
@@ -152,43 +116,36 @@ nav a:hover {
     color: #172554;
 }
 
-.btn-yellow:hover {
-    transform: translateY(-3px);
-}
-
 .btn-white {
-    background: white;
+    background: #ffffff;
     color: #172554;
 }
 
-.btn-white:hover {
+.btn:hover {
     transform: translateY(-3px);
 }
 
-/* =========================
-   SECTIONS
-========================= */
+/* SECTIONS */
 
 section {
-    padding: 80px 0;
+    padding: 75px 7%;
 }
 
 .section-title {
     text-align: center;
-    font-size: 36px;
+    font-size: 34px;
     margin-bottom: 15px;
+    color: #172554;
 }
 
 .section-subtitle {
     text-align: center;
-    max-width: 700px;
+    max-width: 750px;
     margin: 0 auto 45px;
-    color: #64748b;
+    color: #6b7280;
 }
 
-/* =========================
-   SERVICES
-========================= */
+/* SERVICES */
 
 .services {
     display: grid;
@@ -197,129 +154,152 @@ section {
 }
 
 .card {
+    padding: 30px 22px;
+    border-radius: 18px;
     background: #ffffff;
-    padding: 32px 25px;
-    border-radius: 20px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.08);
     text-align: center;
-    box-shadow: 0 8px 30px rgba(15,42,95,0.08);
     transition: 0.3s;
-    border: 1px solid #eef2f7;
+    border: 1px solid #f0f2f5;
 }
 
 .card:hover {
-    transform: translateY(-7px);
-    box-shadow: 0 15px 35px rgba(15,42,95,0.13);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
 }
 
 .icon {
-    width: 65px;
-    height: 65px;
+    width: 58px;
+    height: 58px;
     margin: 0 auto 18px;
-    border-radius: 18px;
-    background: #fff7cf;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 32px;
+    background: #fff8d8;
+    border-radius: 15px;
+    font-size: 30px;
 }
 
 .card h3 {
     margin-bottom: 10px;
-    font-size: 19px;
+    color: #172554;
 }
 
 .card p {
-    color: #64748b;
+    color: #6b7280;
+    font-size: 15px;
 }
 
-/* =========================
-   ABOUT
-========================= */
+/* SPLIT */
 
-.about {
+.split-section {
     background: #f5f8fc;
 }
 
-.about-box {
-    max-width: 850px;
+.split-box {
+    max-width: 1000px;
     margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    align-items: center;
+}
+
+.split-content h2 {
+    font-size: 34px;
+    margin-bottom: 18px;
+}
+
+.split-content p {
+    color: #5d6675;
+    margin-bottom: 20px;
+}
+
+.split-list {
+    list-style: none;
+}
+
+.split-list li {
+    margin: 12px 0;
+    font-weight: bold;
+}
+
+.split-visual {
+    min-height: 300px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #0b2452, #1d67c7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.split-visual div {
+    font-size: 90px;
+}
+
+/* ABOUT */
+
+.about {
+    background: #f5f8fc;
     text-align: center;
 }
 
-.about-box p {
-    color: #475569;
+.about p {
+    max-width: 850px;
+    margin: auto;
     font-size: 18px;
+    color: #596273;
 }
 
-/* =========================
-   WHY US
-========================= */
+/* WHY */
 
 .why {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 22px;
 }
 
-.why-card {
-    text-align: center;
-    padding: 25px 15px;
+/* REALISATIONS */
+
+.realizations {
+    background: #ffffff;
 }
 
-.why-card .icon {
-    background: #eef5ff;
-}
-
-.why-card h3 {
-    margin-bottom: 8px;
-}
-
-.why-card p {
-    color: #64748b;
-    font-size: 15px;
-}
-
-/* =========================
-   PROCESS
-========================= */
-
-.process {
-    background: #f5f8fc;
-}
-
-.process-grid {
+.realization-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
 
-.process-card {
-    background: white;
-    padding: 30px;
+.realization {
+    min-height: 230px;
     border-radius: 18px;
-    text-align: center;
-}
-
-.number {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #ffd21f;
-    color: #172554;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0b2452, #1b5eb7);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 900;
-    margin: 0 auto 15px;
-    font-size: 20px;
+    text-align: center;
+    padding: 25px;
 }
 
-/* =========================
-   CONTACT
-========================= */
+.realization .photo-icon {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.realization h3 {
+    margin-bottom: 5px;
+}
+
+/* CONTACT */
 
 .contact {
-    background: linear-gradient(135deg, #071a3a, #0b2452);
+    background: #0b2452;
     color: white;
     text-align: center;
 }
@@ -329,85 +309,68 @@ section {
 }
 
 .contact p {
-    max-width: 650px;
+    max-width: 700px;
     margin: auto;
-    color: #dbeafe;
+    color: #e2e8f0;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 
 footer {
-    background: #041126;
+    background: #071a3a;
     color: white;
     text-align: center;
-    padding: 30px 15px;
+    padding: 30px 20px;
 }
 
 footer p {
-    margin: 5px 0;
-    color: #cbd5e1;
+    margin: 5px;
 }
 
-footer strong {
+.footer-phone {
     color: #ffd21f;
+    font-weight: bold;
 }
 
-/* =========================
-   WHATSAPP
-========================= */
+/* WHATSAPP */
 
 .whatsapp {
     position: fixed;
     right: 20px;
     bottom: 20px;
+    background: #25D366;
+    color: white;
     width: 62px;
     height: 62px;
     border-radius: 50%;
-    background: #25D366;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 29px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-    z-index: 2000;
-    animation: pulse 2s infinite;
+    font-size: 28px;
+    text-decoration: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+    z-index: 999;
 }
 
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 rgba(37,211,102,0.5);
-    }
-    70% {
-        box-shadow: 0 0 0 15px rgba(37,211,102,0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(37,211,102,0);
-    }
-}
+/* MOBILE */
 
-/* =========================
-   MOBILE
-========================= */
+@media(max-width: 850px) {
 
-@media (max-width: 800px) {
-
-    .header-content {
-        min-height: 65px;
+    header {
+        padding: 10px 5%;
     }
 
-    .logo {
-        font-size: 20px;
+    .logo img {
+        width: 115px;
     }
 
-    nav {
-        display: none;
+    nav a {
+        margin-left: 10px;
+        font-size: 11px;
     }
 
     .hero {
-        padding: 75px 0;
+        padding: 70px 5%;
     }
 
     .hero h1 {
@@ -415,11 +378,11 @@ footer strong {
     }
 
     .hero p {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     section {
-        padding: 60px 0;
+        padding: 60px 5%;
     }
 
     .section-title {
@@ -427,31 +390,46 @@ footer strong {
     }
 
     .services {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .why {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .process-grid {
+    .realization-grid {
         grid-template-columns: 1fr;
     }
 
-    .btn {
-        width: 90%;
-        max-width: 330px;
+    .split-box {
+        grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 450px) {
+@media(max-width: 550px) {
+
+    nav a {
+        display: none;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+    }
 
     .why {
         grid-template-columns: 1fr;
     }
 
-    .hero h1 {
-        font-size: 32px;
+    .split-content h2 {
+        font-size: 29px;
     }
 
     .whatsapp {
@@ -461,398 +439,369 @@ footer strong {
         bottom: 15px;
     }
 }
-
-</style>.logo img {
-    width: 150px;
-    height: auto;
-    display: block;
-}
+</style>
 </head>
 
 <body>
 
-<!-- =========================
-     HEADER
-========================= -->
+<!-- MENU -->
 
 <header>
 
-<div class="container header-content">
+    <div class="logo">
+        <img src="logo.png" alt="Congo Lumière">
+    </div>
 
-<div class="logo">
-    <img src="logo.png" alt="Congo Lumière">
-</div>
-
-<nav>
-    <a href="#accueil">Accueil</a>
-    <a href="#services">Services</a>
-    <a href="#apropos">À propos</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-</div>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#split">Installation Split</a>
+        <a href="#apropos">À propos</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
 </header>
 
 
-<!-- =========================
-     ACCUEIL
-========================= -->
+<!-- ACCUEIL -->
 
 <section class="hero" id="accueil">
 
-<div class="container hero-content">
+    <div class="badge">
+        ⚡ Électricité professionnelle à Kinshasa
+    </div>
 
-<div class="badge">
-    ⚡ Électricité professionnelle à Kinshasa
-</div>
+    <h1>
+        Votre électricité,<br>
+        <span>notre expertise ⚡</span>
+    </h1>
 
-<h1>
-    Votre électricité,<br>
-    <span>notre expertise ⚡</span>
-</h1>
+    <p>
+        Des solutions électriques fiables, sécurisées et professionnelles
+        pour votre maison, votre commerce et votre entreprise.
+    </p>
 
-<p>
-    Des solutions électriques fiables, sécurisées et professionnelles
-    pour votre maison, votre commerce et votre entreprise.
-</p>
+    <div class="buttons">
 
-<div class="buttons">
+        <a href="#contact" class="btn btn-yellow">
+            DEMANDER UN DEVIS
+        </a>
 
-<a
-href="#contact"
-class="btn btn-yellow">
-    DEMANDER UN DEVIS
-</a>
+        <a
+            href="https://wa.me/243825165739?text=Bonjour%20Congo%20Lumi%C3%A8re%2C%20je%20souhaite%20demander%20un%20devis."
+            class="btn btn-white"
+            target="_blank">
+            💬 WHATSAPP
+        </a>
 
-<a
-href="https://wa.me/243825165739?text=Bonjour%20Congo%20Lumi%C3%A8re%2C%20je%20souhaite%20demander%20un%20devis."
-target="_blank"
-class="btn btn-white">
-    💬 WHATSAPP
-</a>
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
 
-<!-- =========================
-     SERVICES
-========================= -->
+<!-- SERVICES -->
 
 <section id="services">
 
-<div class="container">
+    <h2 class="section-title">Nos services</h2>
 
-<h2 class="section-title">
-    Nos services
-</h2>
+    <p class="section-subtitle">
+        Nous vous accompagnons pour vos travaux, installations,
+        réparations et besoins électriques.
+    </p>
 
-<p class="section-subtitle">
-    Nous vous accompagnons pour vos travaux, installations,
-    réparations et besoins électriques.
-</p>
+    <div class="services">
 
-<div class="services">
+        <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Installation électrique</h3>
+            <p>
+                Installation et rénovation de vos circuits électriques
+                pour votre habitation ou votre entreprise.
+            </p>
+        </div>
 
-<div class="card">
-<div class="icon">⚡</div>
-<h3>Installation électrique</h3>
-<p>
-Installation et rénovation de vos circuits électriques.
-</p>
-</div>
+        <div class="card">
+            <div class="icon">🛠️</div>
+            <h3>Dépannage électrique</h3>
+            <p>
+                Recherche et résolution de vos pannes électriques
+                avec une intervention efficace.
+            </p>
+        </div>
 
-<div class="card">
-<div class="icon">🛠️</div>
-<h3>Dépannage électrique</h3>
-<p>
-Recherche et résolution de vos pannes électriques.
-</p>
-</div>
+        <div class="card">
+            <div class="icon">💡</div>
+            <h3>Éclairage</h3>
+            <p>
+                Installation de luminaires et solutions d'éclairage
+                adaptées à vos espaces.
+            </p>
+        </div>
 
-<div class="card">
-<div class="icon">💡</div>
-<h3>Éclairage</h3>
-<p>
-Installation de luminaires et solutions d'éclairage.
-</p>
-</div>
+        <div class="card">
+            <div class="icon">🔌</div>
+            <h3>Prises & interrupteurs</h3>
+            <p>
+                Installation et remplacement de prises,
+                interrupteurs et équipements électriques.
+            </p>
+        </div>
 
-<div class="card">
-<div class="icon">🔌</div>
-<h3>Prises & interrupteurs</h3>
-<p>
-Installation et remplacement de prises et interrupteurs.
-</p>
-</div>
+        <div class="card">
+            <div class="icon">🏠</div>
+            <h3>Tableau électrique</h3>
+            <p>
+                Installation, organisation et amélioration
+                de vos tableaux électriques.
+            </p>
+        </div>
 
-<div class="card">
-<div class="icon">🏠</div>
-<h3>Tableau électrique</h3>
-<p>
-Installation et organisation de tableaux électriques.
-</p>
-</div>
+        <div class="card">
+            <div class="icon">🔧</div>
+            <h3>Maintenance</h3>
+            <p>
+                Contrôle, entretien et vérification de vos
+                installations électriques.
+            </p>
+        </div>
 
-<div class="card">
-<div class="icon">🔧</div>
-<h3>Maintenance</h3>
-<p>
-Contrôle et entretien de vos installations électriques.
-</p>
-</div>
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
 
-<!-- =========================
-     À PROPOS
-========================= -->
+<!-- INSTALLATION SPLIT -->
+
+<section class="split-section" id="split">
+
+    <div class="split-box">
+
+        <div class="split-content">
+
+            <h2>❄️ Installation de climatiseur Split</h2>
+
+            <p>
+                Congo Lumière vous accompagne également dans
+                l'installation de vos climatiseurs Split à Kinshasa.
+            </p>
+
+            <ul class="split-list">
+                <li>✅ Installation de climatiseur Split</li>
+                <li>✅ Pose et raccordement électrique</li>
+                <li>✅ Mise en service</li>
+                <li>✅ Vérification de l'installation</li>
+                <li>✅ Conseils pour une utilisation sécurisée</li>
+            </ul>
+
+            <div class="buttons">
+
+                <a
+                    href="https://wa.me/243825165739?text=Bonjour%20Congo%20Lumi%C3%A8re%2C%20je%20souhaite%20un%20devis%20pour%20une%20installation%20Split."
+                    class="btn btn-yellow"
+                    target="_blank">
+                    DEMANDER UN DEVIS
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="split-visual">
+            <div>
+                ❄️<br>
+                <strong>INSTALLATION<br>SPLIT</strong>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- À PROPOS -->
 
 <section class="about" id="apropos">
 
-<div class="container about-box">
+    <h2 class="section-title">
+        À propos de Congo Lumière
+    </h2>
 
-<h2 class="section-title">
-    À propos de Congo Lumière
-</h2>
-
-<p>
-    Congo Lumière accompagne les particuliers et les professionnels
-    dans leurs travaux électriques à Kinshasa.
-    Notre objectif est de proposer des solutions fiables,
-    sécurisées et adaptées aux besoins de chaque client.
-</p>
-
-</div>
+    <p>
+        Congo Lumière accompagne les particuliers et les professionnels
+        dans leurs travaux électriques à Kinshasa. Notre objectif est de
+        proposer des solutions fiables, sécurisées et adaptées aux besoins
+        de chaque client.
+    </p>
 
 </section>
 
 
-<!-- =========================
-     POURQUOI NOUS
-========================= -->
+<!-- POURQUOI NOUS -->
 
 <section>
 
-<div class="container">
+    <h2 class="section-title">
+        Pourquoi nous choisir ?
+    </h2>
 
-<h2 class="section-title">
-    Pourquoi nous choisir ?
-</h2>
+    <p class="section-subtitle">
+        Un service sérieux et une attention particulière à la qualité
+        de chaque intervention.
+    </p>
 
-<p class="section-subtitle">
-    Une approche basée sur la qualité, la sécurité et le sérieux.
-</p>
+    <div class="why">
 
-<div class="why">
+        <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Intervention rapide</h3>
+            <p>
+                Une attention particulière à la rapidité
+                d'intervention.
+            </p>
+        </div>
 
-<div class="why-card">
+        <div class="card">
+            <div class="icon">🛡️</div>
+            <h3>Sécurité</h3>
+            <p>
+                La sécurité de votre installation
+                est notre priorité.
+            </p>
+        </div>
 
-<div class="icon">⚡</div>
+        <div class="card">
+            <div class="icon">👨‍🔧</div>
+            <h3>Professionnalisme</h3>
+            <p>
+                Un travail propre, sérieux et professionnel.
+            </p>
+        </div>
 
-<h3>Réactivité</h3>
+        <div class="card">
+            <div class="icon">💰</div>
+            <h3>Transparence</h3>
+            <p>
+                Des informations claires sur les travaux
+                à réaliser.
+            </p>
+        </div>
 
-<p>
-Une attention particulière à la rapidité d'intervention.
-</p>
-
-</div>
-
-
-<div class="why-card">
-
-<div class="icon">🛡️</div>
-
-<h3>Sécurité</h3>
-
-<p>
-La sécurité de votre installation est une priorité.
-</p>
-
-</div>
-
-
-<div class="why-card">
-
-<div class="icon">👨‍🔧</div>
-
-<h3>Professionnalisme</h3>
-
-<p>
-Un travail propre et réalisé avec sérieux.
-</p>
-
-</div>
-
-
-<div class="why-card">
-
-<div class="icon">💰</div>
-
-<h3>Transparence</h3>
-
-<p>
-Des informations claires sur les travaux à réaliser.
-</p>
-
-</div>
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
 
-<!-- =========================
-     COMMENT ÇA MARCHE
-========================= -->
+<!-- RÉALISATIONS -->
 
-<section class="process">
+<section class="realizations" id="realisations">
 
-<div class="container">
+    <h2 class="section-title">
+        Nos réalisations
+    </h2>
 
-<h2 class="section-title">
-    Comment ça fonctionne ?
-</h2>
+    <p class="section-subtitle">
+        Découvrez quelques exemples de travaux et d'interventions
+        réalisés par Congo Lumière.
+    </p>
 
-<p class="section-subtitle">
-    Une démarche simple pour vos besoins électriques.
-</p>
+    <div class="realization-grid">
 
-<div class="process-grid">
+        <div class="realization">
+            <div>
+                <div class="photo-icon">⚡</div>
+                <h3>Installation électrique</h3>
+                <p>Travaux électriques résidentiels</p>
+            </div>
+        </div>
 
-<div class="process-card">
+        <div class="realization">
+            <div>
+                <div class="photo-icon">❄️</div>
+                <h3>Installation Split</h3>
+                <p>Pose et raccordement de climatiseurs</p>
+            </div>
+        </div>
 
-<div class="number">1</div>
+        <div class="realization">
+            <div>
+                <div class="photo-icon">💡</div>
+                <h3>Éclairage</h3>
+                <p>Installation de solutions d'éclairage</p>
+            </div>
+        </div>
 
-<h3>Contactez-nous</h3>
-
-<p>
-Envoyez-nous votre demande par WhatsApp ou téléphone.
-</p>
-
-</div>
-
-
-<div class="process-card">
-
-<div class="number">2</div>
-
-<h3>Échange</h3>
-
-<p>
-Expliquez-nous votre problème ou votre projet électrique.
-</p>
-
-</div>
-
-
-<div class="process-card">
-
-<div class="number">3</div>
-
-<h3>Intervention</h3>
-
-<p>
-Nous organisons la suite de votre demande.
-</p>
-
-</div>
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
 
-<!-- =========================
-     CONTACT
-========================= -->
+<!-- CONTACT -->
 
 <section class="contact" id="contact">
 
-<div class="container">
+    <h2 class="section-title">
+        Besoin d'un électricien ?
+    </h2>
 
-<h2 class="section-title">
-    Besoin d'un électricien ?
-</h2>
+    <p>
+        Contactez Congo Lumière pour discuter de votre projet,
+        demander un devis ou résoudre votre problème électrique.
+    </p>
 
-<p>
-    Contactez Congo Lumière pour discuter de votre projet,
-    demander un devis ou signaler un problème électrique.
-</p>
+    <div class="buttons">
 
-<div class="buttons">
+        <a
+            href="https://wa.me/243825165739?text=Bonjour%20Congo%20Lumi%C3%A8re%2C%20je%20souhaite%20demander%20un%20devis."
+            class="btn btn-yellow"
+            target="_blank">
+            💬 CONTACTER SUR WHATSAPP
+        </a>
 
-<a
-href="https://wa.me/243825165739?text=Bonjour%20Congo%20Lumi%C3%A8re%2C%20je%20souhaite%20demander%20un%20devis."
-target="_blank"
-class="btn btn-yellow">
-    💬 CONTACTER SUR WHATSAPP
-</a>
+        <a
+            href="tel:+243825165739"
+            class="btn btn-white">
+            📞 APPELER
+        </a>
 
-<a
-href="tel:+243825165739"
-class="btn btn-white">
-    📞 APPELER
-</a>
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
 
-<!-- =========================
-     FOOTER
-========================= -->
+<!-- FOOTER -->
 
 <footer>
 
-<p>
-<strong>CONGO LUMIÈRE</strong>
-</p>
+    <p>
+        <strong>CONGO LUMIÈRE</strong> — Votre énergie à domicile
+    </p>
 
-<p>
-Votre énergie, notre expertise ⚡
-</p>
+    <p>
+        📍 Kinshasa, République démocratique du Congo
+    </p>
 
-<p>
-WhatsApp : +243 825 165 739
-</p>
+    <p class="footer-phone">
+        📞 +243 825 165 739
+    </p>
 
-<p>
-© 2026 Congo Lumière. Tous droits réservés.
-</p>
+    <p>
+        © 2026 Congo Lumière. Tous droits réservés.
+    </p>
 
 </footer>
 
 
-<!-- =========================
-     WHATSAPP FLOTTANT
-========================= -->
+<!-- WHATSAPP FLOTTANT -->
 
 <a
-class="whatsapp"
-href="https://wa.me/243825165739?text=Bonjour%20Congo%20Lumi%C3%A8re%2C%20je%20souhaite%20vous%20contacter."
-target="_blank"
-aria-label="Contacter Congo Lumière sur WhatsApp">
-
-☎
-
+    class="whatsapp"
+    href="https://wa.me/243825165739?text=Bonjour%20Congo%20Lumi%C3%A8re%2C%20je%20souhaite%20vous%20contacter."
+    target="_blank"
+    aria-label="Contacter Congo Lumière sur WhatsApp">
+    💬
 </a>
 
 </body>
-</html>
+           </html>
